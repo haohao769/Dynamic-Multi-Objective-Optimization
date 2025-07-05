@@ -1,0 +1,48 @@
+{
+  "timestamp": "2025-07-05T15:58:47.103583",
+  "num_experiments": 11,
+  "algorithms_tested": [
+    "greedy",
+    "nearest_neighbor",
+    "simple_ga"
+  ],
+  "summary_statistics": {
+    "greedy": {
+      "mean_time": 1.7434350163696404,
+      "std_time": 0.6862822723256305,
+      "min_time": 1.0734584608878392,
+      "max_time": 2.4449364843738475,
+      "mean_computation": 0.0020019213358561196
+    },
+    "nearest_neighbor": {
+      "mean_time": 0.9835132998320608,
+      "std_time": 0.1075099275958214,
+      "min_time": 0.8389493255071268,
+      "max_time": 1.0935695424401428,
+      "mean_computation": 0.0024996399879455566
+    },
+    "simple_ga": {
+      "mean_time": 1.0942331712621656,
+      "std_time": 0.12841924407793062,
+      "min_time": 0.9185876671601151,
+      "max_time": 1.220331941751974,
+      "mean_computation": 0.09540599584579468
+    }
+  },
+  "efficiency_gains": {},
+  "scalability_analysis": {
+    "greedy": {
+      "complexity_order": 0.89698974506388,
+      "num_samples": 3
+    },
+    "nearest_neighbor": {
+      "complexity_order": 0.767326294661263,
+      "num_samples": 4
+    },
+    "simple_ga": {
+      "complexity_order": -0.01723985240435559,
+      "num_samples": 4
+    }
+  },
+  "robustness_analysis": {}
+}
